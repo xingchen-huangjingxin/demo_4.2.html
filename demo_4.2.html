@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>我的家乡——湛江</title>
+        <style type="text/css">
+        	*{
+	padding:0;
+	margin:0;
+}
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.clear:after{
+	content:"";
+	height:0px;
+    display:block;
+    clear:both;
+}
+body{
+	background:rgba(0,0,0,0.2);
+}
+.logo{
+	float:left;
+}
+.hometown{
+	float:left;
+	width:110px;
+	height:110px;
+}
+.container{
+	margin:0px auto;
+	width:965px;
+}
+.navi{
+	float:left;
+}
+#index{
+	color:#8e1e1e;
+}
+.navi li{
+	float:left;
+	height:100px;
+	width:100px;
+	text-align:center;
+}
+.navi li a{
+    line-height:120px;
+    color:rgb(48,45,45);
+}
+.navi li a:hover{
+	color:rgb(49,122,232);
+	font-size:20px;
+}
+.box2 .container{
+	background:url(images/hometown/banner2.jpg) no-repeat center;
+	width:1000px;
+	height:300px;
+}
+h1{
+	position:relative;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+h1:after{
+	position:absolute;
+	display:block;
+	content:"";
+	height:3px;
+	width:350px;
+	background-color:red;
+	top:35px;
+	left:200px;
+}
+h1:before{
+	position:absolute;
+	display:block;
+	content:"";
+	height:3px;
+	width:350px;
+	background-color:red;
+	top:35px;
+	right:200px;
+}
+h1>p{
+	font-size:14px;
+}
+.left-img{
+	width:650px;
+	height:400px;
+}
+.right{
+	width:300px;
+	height:400px;
+	float:right;
+}
+.right-header1{
+	background:url(images/hometown/yunduo1.png) no-repeat left rgb(243,236,226);
+	background-size:35px 35px;
+	width:260px;
+	height:35px;
+	padding-left:40px;
+	margin-bottom:4px;
+}
+.header1{
+	float:left;
+}
+.right .yunduo{
+	width:35px;
+	height:35px;
+}
+.right>p{
+	display:inline-block;
+}
+.right img{
+	width:150px;
+	height:120px;
+	float:left;
+}
+.right-img{
+	position:relative;
+	height:120px;
+	width:150px;
+	float:left;
+}
+.right-img p{
+	color:white;
+	width:150px;
+	height:20px;
+	background-color:black;
+	font-size:12px;
+	text-align:center;
+}
+.picture{
+	position:absolute;
+	top:100px;
+	left:0;
+	opacity:0.4;
+}
+.left4{
+	float:left;
+	width:150px;
+	height:410px;
+	border:2px #f1ae97 solid;
+}
+.left-header2{
+	background:url(images/hometown/yunduo1.png) no-repeat left rgb(243,236,226);
+	background-size:35px 35px;
+	width:110px;
+	height:35px;
+	padding-left:40px;
+	margin-bottom:4px;
+}
+.box4_left{
+	width:150px;
+	height:370px;
+}
+.food{
+	width:;
+}
+.food li{
+	width:150px;
+	height:120px;
+	float:left;
+	margin-bottom:4px;
+}
+.food li img{
+	width:150px;
+	height:120px;
+	float:left;
+}
+.center4{
+	width:630px;
+	height:410px;
+	border:2px #f1ae97 solid;
+	float:left;
+	margin-left:8px;
+	margin-right:8px;
+}
+.right4{
+	float:right;
+	width:150px;
+	height:410px;
+	border:2px #f1ae97 solid;
+}
+.center4 img{
+	width:300px;
+	height:200px;
+	padding-right:8px;
+}
+.food7{
+	float:left;
+}
+.center4 h4{
+	float:left;
+	margin-left:100px;
+	font-size:20px;
+}
+.center4 p{
+	float:left;
+	width:300px;
+	height:175px;
+	font-family:宋体;
+	font-size:16px;
+	color:#7c511f;
+	font-weight:bold;
+	text-indent:2em;
+}
+.food8{
+	float:right;
+}
+#fanshu{
+	height:100px;
+}
+#food9{
+	float:left;
+	width:150px;
+	height:80px;
+}
+.box5>.container{
+	background-color:#f7f0e9;
+}
+.left5{
+	float:left;
+	width:220px;
+	height:270px;
+	margin-right:10px;
+	margin-left:10px;
+}
+.box5 h4{
+	height:35px;
+	width:250px;
+	float:left;
+	background-color:;
+	line-height:30px;
+	font-size:20px;
+}
+.list_left{
+	float:left;
+	width:250px;
+	height:250px;
+}
+.list_left li{
+	width:250px;
+	height:40px;
+	line-height:40px;
+	list-style:dics;
+}
+.list_left li a{
+	font-weight:light;
+	font-family:Microsoft YaHei;
+	color:black;
+	text-decoration:underline;
+	text-decoration-color:green;
+}
+.list_left li a:hover{
+	color:red;
+}
+.right5{
+	float:left;
+	width:700px;
+	height:270px;
+}
+.right5 img{
+	width:250px;
+	height:250px;
+	float:left;
+	margin-right:20px;
+}
+.right5 p{
+	float:left;
+	width:400px;
+	height:100px;
+	margin-top:30px;
+	text-indent:2em;
+}
+.consult{
+	width:100px;
+	float:left;
+	color:red;
+	font-weight:bold;
+}
+.search_top{
+	width:200px;
+	float:right;
+}
+.top6{
+	height:30px;
+	margin-top:10px;
+}
+.search{
+	float:right;
+	height:16px;
+	border:red 2px solid;
+	font-size:10px;
+}
+.submit{
+	vertical-align:bottom;
+	width:20px;
+	height:20px;
+	float:right;
+	border:none;
+	background:url(images/hometown/fa-search.png) red no-repeat center;
+	background-size:15px 15px;
+}
+.hr{
+	border-color:#f0b290;
+	border-width:2px;
+}
+.bottom6{
+	height:90px;
+}
+.right6{
+	float:left;
+	width:300px;
+	height:90px;
+}
+.left6{
+	float:left;
+	width:300px;
+	height:90px;
+}
+.para1{
+	width:180px;
+	float:left;
+}
+.para2{
+	width:50px;
+	float:left;
+}
+.copyright{
+	height:70px;
+	background:rgba(0,0,0,0.3);
+	text-align:center;
+	line-height:70px;
+}
+        </style>
+    </head>
+    <body>
+    	<div class="box1">
+    		<div class="container clear">
+	    		<img src="images/hometown/logo.png" class="logo">
+	    		<img src="images/hometown/hometown1.png" class="hometown">
+	    		<ul class="navi">
+	    			<li><a href="#" id="index">首页</a></li>
+	    			<li><a href="#">家乡介绍</a></li>
+	    			<li><a href="#">家乡风光</a></li>
+	    			<li><a href="#">家乡建设</a></li>
+	    			<li><a href="#">在线咨询</a></li>
+	    		</ul>
+	    	</div>
+    	</div>
+    	<div class="box2">
+    		<div class="container">
+    		</div>
+    	</div>
+    	<h1>滨海城市
+    		<p>美丽家乡&nbsp &nbsp 我爱家乡</p>
+    	</h1>
+    	<div class="box3">
+    		<div class="container"> 
+    			<img src="images/hometown/banner1.jpg" class="left-img">
+    			<div class="clear right">
+    				<div class="right-header1">
+    						<h4 class="header1">美不胜收</h4>
+    				</div>
+    				<div class="right-img">
+    						<img src="images/hometown/picture1.jpg">
+    						<p class="picture">雷州樟树湾小区风景</p>
+    				</div>
+    				<div class="right-img">
+    						<img src="images/hometown/picture2.jpg">
+    						<p class="picture">吴川渔港风光</p>
+    				</div>
+    				<div class="right-img">
+    						<img src="images/hometown/picture3.jpg">
+    						<p class="picture">湛江金沙湾美景</p>
+    				</div>
+    				<div class="right-img">
+    						<img src="images/hometown/picture4.jpg">
+    						<p class="picture">湛江湖光岩美景</p>
+    				</div>
+    				<div class="right-img">
+    						<img src="images/hometown/picture5.jpg">
+    						<p class="picture">徐闻马草港傍晚</p>
+    				</div>
+    				<div class="right-img">
+    						<img src="images/hometown/picture6.jpg">
+    						<p class="picture">遂溪孔子庙</p>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<h1>滨海城市
+    		<p>美丽家乡&nbsp &nbsp 我爱家乡</p>
+    	</h1>
+    	<div class="box4">
+    		<div class="container clear">
+    			<div class="left4">
+	    	        <div class="left-header2 clear">
+	    				<h4 class="header2">美食佳肴</h4>
+	    			</div>
+					<div class="box4_left clear">
+						<ul class="food">
+							<li><img src="images/hometown/food1.jpg"></li>
+							<li><img src="images/hometown/food2.jpg"></li>
+							<li><img src="images/hometown/food4.jpg"></li>
+						</ul>
+					</div>
+				</div>
+				<div class="center4">
+					<img src="images/hometown/food7.jpg" class="food7">
+					<h4>糖炒栗子</h4>
+					<p>
+						现在，似乎一年四季都可以吃到糖炒栗子，栗子的味道却没有记忆中那么甜美了，除非是在寒风凛冽的深秋和冬天。我们的老祖宗是对的，当季食物，是要在特定季节吃才最有味道。也许，只有冬天的寒风中，栗子的香甜，才会和砂锅下红火的火焰一起，温暖着我们的胃，也温暖着我们心中的记忆。
+					</p>
+					<img src="images/hometown/food8.jpg" class="food8">
+					<h4>烤番薯</h4>
+					<p id="fanshu">
+						他总需要偶遇，往来于街摊小炒。忽然飘来的香气，直入鼻腔，能立即勾起人们强烈的食欲。热乎乎的买来一个，缓缓地剥开已烤焦黄的外皮，微微地咬一口，软软甜甜的，骤然心感温暖.
+					</p>
+					<img src="images/hometown/food9.jpg" id="food9">
+				</div>
+					<div class="left4">
+	    	        <div class="left-header2 clear">
+	    				<h4 class="header2">小城故事</h4>
+	    			</div>
+					<div class="box4_left clear">
+						<ul class="food">
+							<li><img src="images/hometown/picture7.jpg"></li>
+							<li><img src="images/hometown/picture8.jpg"></li>
+							<li><img src="images/hometown/picture9.jpg"></li>
+						</ul>
+					</div>
+				</div>
+    		</div>
+    	</div>
+    	<h1>滨海城市
+    		<p>美丽家乡&nbsp &nbsp 我爱家乡</p>
+    	</h1>
+        <div class="box5">
+        	<div class="container clear">
+        		<div class="left5">
+        			<div class="left-header2 clear">
+	    				<h4 class="header2">最新热点咨询</h4>
+	    			</div>
+        			<ul class="list_left">
+        				<li><a href="#">湛江天气</a></li>
+        				<li><a href="#">湛江经济状况</a></li>
+        				<li><a href="#">湛江都市生活中新的亮点</a></li>
+        				<li><a href="#">湛江房价</a></li>
+        				<li><a href="#">湛江高铁价格</a></li>
+        			</ul>
+        		</div>
+        		<div class="right5">
+        			<img src="images/hometown/map.png">
+        			<P>湛江，旧称“广州湾”，别称“港城”，是广东省辖的地级市。位于中国大陆最南端雷州半岛上，地处粤桂琼三省区交汇处，南濒南海隔琼州海峡与海南省相望，西临北部湾，背靠大西南，东与茂名市相连。辖3个县级市、5个区和2个县。</P> 
+					<P>湛江是粤西和北部湾经济圈的经济中心，是中国大陆通往东南亚、欧洲、非洲和大洋洲航程最短的港口城市，1984年全国首批14个沿海开放城市之一，湛江还是中国海军南海舰队司令部所在地。</P>
+				</div>
+        	</div>
+        </div>
+        <div class="box6">
+        	<div class="container clear">
+        		<div class="top6">
+	        		<p class="consult">
+	        			在线咨询
+	        		</p>
+        		    <form class="search_top">
+        		    	<input type="button" class="submit" />
+        				<input type="text" placeholder="最新咨询消息" class="search">
+        			</form>
+        		</div>
+        		<hr class="hr" />
+        		<div class="bottom6">
+	               	<p class="right6">
+        		   		地址：广东省湛江市<br />
+		           		咨询邮箱：1927361111@qq.com<br />
+		           		咨询热线：1358888666<br />
+	            	</p>
+	           		 <form class="left6">
+	            			用户名：<input type="text" name="username" value="手机号"><br />
+	            			密码：<input type="password" name="password" value="123456"><br />
+	            			<p class="para1"><a href="#">密码忘记了？</a></p>
+	            			<p class="para2"><a href="#">注册</a></p>
+	            	</form>
+	        	</div>
+        	</div>
+		</div>
+		<div class="container">
+		    <p class="copyright">
+			    版权所有2020-2029.AllRightsReserve
+		    </p>
+		</div>
+</html>
